@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+module.exports = () => {
+    const env = {
+        UNSPLASH_API_KEY: process.env.UNSPLASH_API_KEY,
+    }
 
-module.exports = nextConfig
+    return {
+        env,
+        images: {
+          domains: ['images.unsplash.com'],
+        },
+    }
+}
