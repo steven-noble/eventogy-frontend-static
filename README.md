@@ -2,7 +2,7 @@
 
 ## Local development
 To start the project run `npm run dev`
-To start the styleguide `npm run storybooks`
+To start the styleguide `npm run storybook`
 
 ## Production deploys
 Site - https://glittering-douhua-257d09.netlify.app/
