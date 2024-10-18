@@ -1,3 +1,23 @@
+# Test notes
+
+## Local development
+To start the project run `npm run dev`
+To start the styleguide `npm run storybooks`
+
+## Production deploys
+Site - https://glittering-douhua-257d09.netlify.app/
+Styleguide - https://unique-sopapillas-0afe88.netlify.app
+
+## Added functionality
+- Added a basic toggle for events/templates tabs as shown in the designs.
+- Added some basic frontend search functionality for events.
+- Added a custom Node API endpoint that adds photos for each event result before being sent to the frontend as direct access to the Eventology API was causing a CORS error for localhost.
+
+## Env Variables Required
+UNSPLASH_API_KEY
+
+----
+
 ![image](/public/eventogy-logo.svg)
 
 # React Tech Task
