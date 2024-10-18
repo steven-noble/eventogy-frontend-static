@@ -36,7 +36,7 @@ export async function GET(req: Request) {
         const eventsWithPhotos = await Promise.all(
             data.data.events.map(async (event) => {
                 try {
-                    const photo = await unsplash.photos.getRandom({
+                    const photo: any = await unsplash.photos.getRandom({
                         query: event.name,
                         orientation: 'landscape',
                     })
